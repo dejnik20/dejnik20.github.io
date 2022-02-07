@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Space+Mono&display=swap');
+
+.first-try {
+	height: 400px;
+	background-color: lightblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	background-color: cyan;
+	font-family: Raleway;
+}
+
+.second-try {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	height: 400px;
+	background-color: brown;
+
+}
+
+p {
+	background-color: orange;
+}
+
+.third-try {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	height: 400px;
+	background-color: violet;
+
+
+}
+
+#p1 {
+	background-color: purple;
+}
+
+.fourth-try {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 800px;
+	background: radial-gradient(circle, rgba(236,24,114,1) 32%, rgba(236,178,0,1) 67%, rgba(73,208,255,1) 99%);
+}
+img {
+	width: 200px;
+	height: 400px;
+}
+
