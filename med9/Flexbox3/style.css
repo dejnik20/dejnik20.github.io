@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+header {
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: radial-gradient(circle, rgba(24,236,177,1) 32%, rgba(236,126,0,1) 67%, rgba(255,73,138,1) 99%);
+    background-image: url(space.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+	background-color: rgba(122,123,211,0.5);
+	padding: 40px;
+	border-radius: 20px;
+	font-family: "Noto Serif";
+
+}
+
+body {
+	margin: 0;
+}
+
+main {
+	padding: 100px;
+	background: radial-gradient(circle, rgba(40,64,158,1) 26%, rgba(0,118,163,1) 67%, rgba(0,155,255,1) 99%);
+}
+main p {
+	column-count: 2;
+	font-family: "Montserrat";
+}
+
+#space {
+	height: 500px;
+	display: flex;
+	justify-content: space-between;
+    align-items: stretch;
+    background-image: url(stars.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 20px double black;
+
+}
+
+#space h2 {
+	background-color: rgb(42, 97, 247);
+	padding: 30px;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 300px;
+	background-image: url(earth.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+footer p {
+	padding: 20px;
+	background-color: rgb(102, 91, 126);
+	border-radius: 20px;
+}
