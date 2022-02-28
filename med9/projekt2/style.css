@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+header {
+	text-align: center;
+}
+h1 {
+	font-family: Raleway;
+}
+h2 {
+	font-family: dancing script;
+}
+
+.a {
+	border: 5px dotted;
+	padding: 30px;
+	margin: 30px;
+}
+
+p {
+	column-count: 3;
+	font-family: Raleway;
+	background-color: white;
+}
+
+#b {
+	display: flex;
+	border: 5px dotted;
+	padding: 40px;
+	margin: 30px;
+    background: radial-gradient(circle, rgba(37,153,232,1) 12%, rgba(31,123,191,1) 41%, rgba(31,75,150,1) 65%);
+    justify-content: center;
+    align-items: center;
+}
