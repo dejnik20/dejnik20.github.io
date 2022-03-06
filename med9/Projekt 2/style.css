@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+header {
+	text-align: center;
+}
+
+.a {
+	font-family: Raleway;
+	font-size: 20px;
+	height: 200px;
+	column-count: 3;
+	padding: 15px;
+	border: 5px dotted;
+	margin: 20px;
+}
+
+.a {
+	color: black;
+	line-height: 1.5rem;
+}
+
+h2 {
+	font-family: Dancing Script;
+}
+
+#b {
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 5px dotted;
+	padding: 10px;
+	margin: 20px;
+	background: rgb(7,124,254);
+background: radial-gradient(circle, rgba(7,124,254,1) 21%, rgba(32,32,237,1) 38%, rgba(39,28,227,1) 58%);
+}
+
+#b p {
+	height: 50px;
+	width: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 3px;
+	margin: 0;
+	background-color: white;
+	font-family: Raleway;
+}
+
+.c {
+	background-color: lightblue;
+	height: 200px;
+	display: flex;
+	border: 5px dotted;
+	justify-content: space-between;
+	align-items: stretch;
+	margin: 20px;
+	font-family: Raleway;
+}
+
+.c p {
+	background-color: white;
+	margin: 0;
+	padding: 10px;
+
+}
+
+#d{
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 5px dotted
+	padding: 10px;
+	margin: 20px;
+	background-color: blue;
+}
+
+img {
+	width: 70px;
+	height: 70px;
+	border: 7px solid white;
+}
+
+footer {
+	height: 200px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	border: 5px dotted;
+	margin: 20px;
+	font-family: Raleway;
+	background-color: darkblue;
+}
+
+footer p{
+	height: 50px;
+	width: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 3px;
+	margin: 0;
+	background-color: white;
+}
