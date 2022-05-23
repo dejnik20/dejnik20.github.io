@@ -1,0 +1,306 @@
+/*
+*
+* Title: Online Shopping
+* Author: Dejvi Nika
+* Date: 09.05.2022
+*
+*/ 
+
+
+
+/********************** General Styling ***********************/
+
+body {
+	margin: 0;
+}
+
+
+
+/* Navigation */
+
+nav {
+	background-color: #14213D ;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+
+}
+
+
+nav img {
+	justify-content: center;
+	align-items: center;
+	height: 80px;
+	width: 70px;
+	border-radius: 50%;
+}
+
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+}
+
+nav ul li a {
+	margin: 10px;
+	padding: 20px;
+	background-color: #fca311;
+	color: steelblue;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+
+
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+
+ }
+ header h1 {
+ 	border: 10px black solid;
+ 	background-color: #fca311;
+ 	border-radius: 20%;
+    padding: 100px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+ 
+ }
+
+
+ /* Footer */
+ footer {
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: space-around;
+ 	height: 300px;
+ 	background-color: #003049;
+ }
+
+  footer p {
+ 	margin: 10px;
+	padding: 20px;
+	background-color: #fca311;
+	color: black;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+ /* Main */
+
+#home main {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+	height: 300px;
+	flex-direction: column;
+	background-color: gray;
+
+}
+
+main p {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+img {
+	height: 200px;
+	width: 200px;
+}
+
+
+#products main .div1 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: 10px black solid;
+	width: 400px;
+	height: 500px;
+	border-radius: 100px;
+	margin-left: 480px;
+	margin-top: 200px;
+	margin-bottom: 100px;
+	background-color: #00A86B;
+	flex-direction: column;
+	padding-bottom: 10px;
+
+
+}
+
+.KawasakiNinja {
+	border-radius: 5%;
+} 
+
+#products main .div2 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: 10px black solid;
+	width: 400px;
+	height: 500px;
+	border-radius: 100px;
+	margin-left: 480px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background-color: #00A86B;
+	flex-direction: column;
+   text-align: center;
+   padding-bottom: 10px;
+
+}
+
+.DucatiSuperSportS {
+	border-radius: 5%;
+} 
+
+
+#products main .div3 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: 10px black solid;
+	width: 400px;
+	height: 500px;
+	border-radius: 100px;
+	margin-left: 480px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background-color: #00A86B;
+	flex-direction: column;
+	text-align: center;
+	padding-bottom: 10px;
+
+
+}
+
+.YamahaR6 {
+	border-radius: 5%;
+} 
+
+
+#products main .div4 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: 10px black solid;
+	width: 400px;
+	height: 500px;
+	border-radius: 100px;
+	margin-left: 480px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background-color: #00A86B;
+	flex-direction: column;
+	padding-bottom: 10px;
+
+
+}
+
+.YamahaMT-07 {
+	border-radius: 5%;
+} 
+
+
+#products main .div5 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: 10px black solid;
+	width: 400px;
+	height: 500px;
+	border-radius: 100px;
+	margin-left: 480px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background-color: #00A86B;
+	flex-direction: column;
+   text-align: center;
+   padding-bottom: 10px;
+
+}
+
+.KawasakiNinjaZX-6R {
+	border-radius: 5%;
+} 
+
+
+#products main .div6 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: 10px black solid;
+	width: 400px;
+	height: 500px;
+	border-radius: 100px;
+	margin-left: 480px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background-color: #00A86B;
+	flex-direction: column;
+   text-align: center;
+   padding-bottom: 30px;
+}
+
+.YamahaYZF-R1 {
+	border-radius: 5%;
+} 
+
+.buy {
+	border: 5px solid black;
+	border-radius: 10px ;
+	background-color: cyan;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-bottom: 5px;
+}
+
+.diva h2 {
+	font-weight: bold;
+	font-size: 20px;
+   text-decoration: underline;
+}
+
+.diva p {
+	font-weight: normal;
+	font-size: 15px;
+	border: 10px solid #d3d3d3;
+	background-color: #d3d3d3;
+	border-radius: 5%;
+}
+
+.diva {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+   margin-left: 200px;
+   margin-right: 200px;
+}
+
+.main3 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 125px;
+}
+
+.identity {
+	border-radius: 5%;
+	height: 300px;
+	width: 300px;
+}
+
+#about main {
+	margin-top:200px;
+}
